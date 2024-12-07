@@ -1,0 +1,11 @@
+CREATE TABLE books( book_code int  primary key ,  book_name char(30), author varchar (20) , genre  varchar(10) ,  availability varchar(4) );
+INSERT INTO books VALUES( 118 , "The Great Gatsby", "F. Scott Fitzgerald", “Classic”, “Yes”);
+INSERT INTO books VALUES( 123 , "To Kill a Mockingbird", "Harper Lee", " Fiction", “Yes”);
+INSERT INTO books VALUES( 124 , "1984", "George Orwell", "Fiction", “Yes” );
+INSERT INTO books VALUES( 131 , "Pride and Prejudice", "Jane Austen", "Romance", “No” );
+INSERT INTO books VALUES( 136 , "The Hobbit", "J.R.R. Tolkien", "Fantasy", “Yes”);
+INSERT INTO books VALUES( 139 , "The Alchemist", "Paulo Coelho", " Fiction", “No”);
+INSERT INTO books VALUES( 147 , "Moby Dick", "Herman Melville", "Fantasy",  “Yes”);
+INSERT INTO books VALUES( 153 , "War and Peace", "Leo Tolstoy", "Fiction",”Yes”);
+INSERT INTO books VALUES( 165 , "The Road", "Cormac McCarthy", " Classic", “Yes”);
+INSERT INTO books VALUES( 168 , “The Name of the Wind”, "Patrick Rothfuss", "Fantasy”,”Yes”);
